@@ -36,12 +36,13 @@
             alt=""
             class="w-14 cursor-pointer hidden md:block"
           />
-          <div class="space-y-1 md:hidden cursor-pointer">
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
             <div class="w-6 h-0.5 bg-black"></div>
             <div class="w-6 h-0.5 bg-black"></div>
             <div class="w-6 h-0.5 bg-black"></div>
           </div>
           <ul
+            id="menu"
             class="hidden bg-sky-200 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center"
           >
             <li><a href="#">home</a></li>
@@ -54,6 +55,7 @@
       </nav>
       <!-- intro content -->
       <div></div>
+      <script src="./app.js"></script>
     </div>
   </body>
 </html>

@@ -118,7 +118,7 @@ var AutoTyping = (function (e) {
   },
 ]).default;
 
-const exampleText = ["Developer", "Designer", "Author"];
+const exampleText = ["Developer", "Designer", "Security"];
 const exampleTyping = new AutoTyping("#text", exampleText, {
   typeSpeed: 100,
   deleteSpeed: 100,

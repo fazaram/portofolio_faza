@@ -652,6 +652,10 @@ video {
   z-index: 30;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -704,6 +708,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-72 {
+  height: 18rem;
 }
 
 .w-14 {
@@ -769,6 +777,10 @@ video {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-72 {
+  width: 18rem;
 }
 
 .cursor-pointer {

@@ -736,6 +736,15 @@ video {
   background-color: rgb(186 230 253 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#3182e9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 130 233 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[sky\] {
+  background-color: sky;
+}
+
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
@@ -820,6 +829,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#3182e9\] {
+  --tw-text-opacity: 1;
+  color: rgb(49 130 233 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-gray-500:hover {

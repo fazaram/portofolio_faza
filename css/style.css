@@ -601,12 +601,20 @@ video {
   margin-right: auto;
 }
 
+.flex {
+  display: flex;
+}
+
 .h-1\/2 {
   height: 50%;
 }
 
 .w-full {
   width: 100%;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .bg-white {
@@ -653,6 +661,11 @@ video {
 
 .to-sky-200 {
   --tw-gradient-to: #bae6fd var(--tw-gradient-to-position);
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .font-nunito {

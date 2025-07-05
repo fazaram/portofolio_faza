@@ -9,13 +9,13 @@
     />
     <title>Tailwind Portofolio</title>
   </head>
-  <body class="font-nunito">
+  <body class="font-nunito bg-sky-50">
     <!-- intro section -->
     <div
       class="h-1/2 lg:h-screen bg-gradient-to-t from-blue-800 to-sky-200 relative overflow-hidden"
     >
       <!-- navbar -->
-      <nav class="w-full fixed top-0 bg-sky-50 z-10">
+      <nav class="w-full fixed top-0 bg-sky-100 z-10 shadow-md">
         <div class="container mx-auto py-2 flex items-center justify-between">
           <div>
             <img
@@ -76,7 +76,7 @@
       </div>
       <!-- texts -->
       <div
-        class="hidden lg:flex flex-col gap-5 rounded-lg shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3"
+        class="hidden lg:flex flex-col gap-5 rounded-lg shadow-gray-600 shadow-xl absolute top-0 bottom-0 m-auto right-10 bg-sky-50 p-6 h-fit w-1/3"
       >
         <h1 class="text-4xl font-bold text-indigo-900">Hello, i'm Faza</h1>
         <p class="text-gray-600">
@@ -150,7 +150,7 @@
               alt=""
               class="h-1/4 absolute top-0 left-0"
             />
-            <div class="h-full w-3/4 rounded-full overflow-hidden">
+            <div class="h-1/6 rounded-full overflow-hidden">
               <img
                 src="./img/Screenshot 2025-02-05 192359.png"
                 alt=""
@@ -164,8 +164,14 @@
             <div class="flex flex-wrap items-center gap-2">
               <img src="./img/canva-icon.png" alt="" class="w-10 mb-2" />
               <img src="./img/capcut-icon.png" alt="" class="w-10 mb-2">
+              <img src="./img/figma-icon.png" alt="" class="w-10 mb-2">
             </div>
             <h1 class="text-3xl font-medium">Better Experience</h1>
+            <p class="left-0">
+              <a href="https://skillicons.dev">
+                <img src="https://skillicons.dev/icons?i=php,html,css,javascript,bootstrap,laravel, tailwincss, react&theme=light" />
+              </a>
+            </p>
             <p class="text-gray-500">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid
               tempore a amet velit accusamus, asperiores et explicabo molestiae
@@ -183,7 +189,6 @@
         <div class="flex flex-col items-center gap-5">
           <h1 class="text-blue-600 font-bold">SERVICES</h1>
           <h1 class="text-3xl">What do I offer?</h1>
-          <p class="w-1/2 text-center text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo blanditiis voluptatibus dolor alias quaerat esse debitis ut aliquam, iusto molestias, rerum similique perspiciatis delectus commodi! Maiores itaque quod sapiente molestias.</p>
         </div>
           <!-- botton -->
            <div class="p-3 sm:p-0 flex flex-wrap items-center justify-center">
@@ -192,21 +197,18 @@
               <img  src="./img/icons8-web-100.png" alt="">
               <h1 class="font-medium text-lg">WEB DEVELOPER</h1>
               <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, sapiente.</p>
-              <a href="#" class="text-blue-600 font-semibold text-sm">Read More</a>
              </div>
             <!-- card -->
              <div class="w-full md:w-4/12 lg:w-1/4 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col items-center gap-5 m-2">
               <img src="./img/icons8-web-100.png" alt="">
               <h1 class="font-medium text-lg">WEB DEVELOPER</h1>
               <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, sapiente.</p>
-              <a href="#" class="text-blue-600 font-semibold text-sm">Read More</a>
              </div>
             <!-- card -->
              <div class="w-full md:w-4/12 lg:w-1/4 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col items-center gap-5 m-2">
               <img src="./img/icons8-web-100.png" alt="">
               <h1 class="font-medium text-lg">WEB DEVELOPER</h1>
               <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, sapiente.</p>
-              <a href="#" class="text-blue-600 font-semibold text-sm">Read More</a>
              </div>
            </div>
       </div>
@@ -218,7 +220,6 @@
         <div class="flex flex-col items-center gap-5">
           <h1 class="text-blue-600 font-bold">PORTFOLIO</h1>
           <h1 class="text-3xl">Work & Projects</h1>
-          <p class="w-1/2 text-center text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo blanditiis voluptatibus dolor alias quaerat esse debitis ut aliquam, iusto molestias, rerum similique perspiciatis delectus commodi! Maiores itaque quod sapiente molestias.</p>
         </div>
           <!-- botton -->
            <div class="p-3 sm:p-0 flex flex-wrap items-center justify-center">
@@ -263,9 +264,10 @@
               src="./img/F__2_-removebg-preview.png"
               alt="faza"
               class="w-8"
+              onclick="location.href='index.html'"
             />
           </div>
-        <span class="hidden md:block font-medium text-white">copyright by Faza Rama Nugraha</span>
+        <span class="hidden md:block font-medium text-gray-400">copyright by <a href="https://www.linkedin.com/in/fazaramanugraha/" target="_blank">Faza Rama Nugraha</a> </span>
         <!-- icons -->
           <div class="flex gap-2">
               <!-- github -->

@@ -1418,6 +1418,10 @@ video {
     margin-bottom: 2.5rem;
   }
 
+  .md\:-mt-\[850px\] {
+    margin-top: -850px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1428,6 +1432,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-\[110\%\] {
+    height: 110%;
   }
 
   .md\:w-4\/12 {
